@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyen Dac Phuong",
+      "email": "dacphuongotp@gmail.com",
+      "password": "$2a$10$jwBRwGcxp9PchVHTXuY3deXOe.kv9twNI/./HM2fktnUKvMC4H4OW"
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Dac Phuong 2",
+      "email": "dacphuongotp2@gmail.com",
+      "password": "$2a$10$jwBRwGcxp9PchVHTXuY3deXOe.kv9twNI/./HM2fktnUKvMC4H4OW"
+    },
+    {
+      "id": 3,
+      "name": "Nguyen Dac Phuong 3",
+      "email": "dacphuongfoly@gmail.com",
+      "password": "$2a$10$jwBRwGcxp9PchVHTXuY3deXOe.kv9twNI/./HM2fktnUKvMC4H4OW"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23 Ultra 256GB",
+      "price": 25000000,
+      "category": "Samsung",
+      "url": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/2/s23-ultra-xanh.png",
+      "description": "iPhone 6S Plus là chiếc smartphone được thiết kế bởi Apple Inc và được giới thiệu. "
+    },
+    {
+      "id": 2,
+      "name": "Iphone 61s 2",
+      "price": "100002",
+      "category": "Iphone",
+      "url": "https://static.chotot.com/storage/chotot-kinhnghiem/c2c/2020/07/iphone-6s-plus-ra-mat-nam-nao-1.jpg",
+      "description": "iPhone 6S Plus là chiếc smartphone được thiết kế bởi Apple Inc và được giới th. "
+    },
+    {
+      "id": 3,
+      "name": "Iphone 7",
+      "price": 20000,
+      "category": "Iphone",
+      "url": "https://iphonebinhphuoc.vn/wp-content/uploads/2021/01/IPHONE-7-SILVER.jpg",
+      "description": "iPhone 7 chính là cái tên đang gây sốt nhất trên sân chơi công nghệ toàn cầu thời ."
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S23 Ultra 256GB",
+      "price": 25000000,
+      "category": "Samsung",
+      "url": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/2/s23-ultra-xanh.png",
+      "description": "iPhone 6S Plus là chiếc smartphone được thiết kế bởi Apple Inc và được giới thiệu vào 9 tháng 9 n "
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

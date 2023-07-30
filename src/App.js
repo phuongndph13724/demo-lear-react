@@ -3,6 +3,9 @@ import './App.css';
 import HomePage from './contaillers/home-pages/HomePage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ProductPage from './contaillers/product-pages/ProductPage';
+import Login from './contaillers/auths/Login';
+import ProductDetail from './contaillers/product-pages/ProductDetail';
+import ProductForm from './contaillers/product-pages/ProductForm';
 
 function App() {
   return (
@@ -11,11 +14,15 @@ function App() {
         <Routes>
           <Route path='/'>
             <Route index element={<HomePage/>} />
-            <Route path='product' element={<ProductPage/>} />
+            <Route path='product'>
+              <Route index element={<ProductPage/>} />
+              <Route path=':id' element={<ProductDetail/>} />
+              <Route path='edit/:id' element={<ProductForm/>} />
+              <Route path='add' element={<ProductForm/>} />
+            </Route>
           </Route>
           <Route path='/auth/'>
-            <Route index element={<HomePage/>} />
-            <Route path='product' element={<ProductPage/>} />
+            <Route path='login' element={<Login/>} />
           </Route>
         </Routes>
       </BrowserRouter>

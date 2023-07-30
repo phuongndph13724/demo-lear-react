@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = ({menu, childFunctionClick, count, changeCount}) => {
+const Header = ({menu, childFunctionClick, count, changeCount, userInfo}) => {
   return (
     <div className=''>
         <div className='p-8'>
@@ -16,6 +16,14 @@ const Header = ({menu, childFunctionClick, count, changeCount}) => {
                     </li>
                 )
             })}
+            {
+                userInfo !== null && 
+                (
+                  <li>
+                    <button onClick={() => localStorage.removeItem('userReact')}>Logout</button>
+                </li>  
+                )
+            }
         </ul>
             <span className='font-600 p-4 text-green-400 text-[24px]'>{count}</span>
         <button onClick={() => childFunctionClick("NLHA")}>Click</button>
